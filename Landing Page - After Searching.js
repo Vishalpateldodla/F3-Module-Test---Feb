@@ -76,3 +76,8 @@ backToSearchLink.addEventListener('click', e => {
     // Redirect the user back to the search page
     window.location.href = 'landing page.html';
 });
+
+const searchButton = document.querySelector('#search-button');
+searchButton.addEventListener('click', () => {
+    window.location.href = './History Page.html';
+});

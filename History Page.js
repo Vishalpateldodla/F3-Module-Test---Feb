@@ -24,3 +24,8 @@ clearButton.addEventListener("click", function() {
   // Remove all items from search history list
   searchHistoryList.innerHTML = "";
 });
+
+const searchButton = document.querySelector('#search-button');
+searchButton.addEventListener('click', () => {
+    window.location.href = './Searched Page.html';
+});
